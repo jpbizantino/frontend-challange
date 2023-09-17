@@ -1,0 +1,43 @@
+.tab {
+  margin-top: 10px;
+}
+
+.table {
+  padding: 10px;
+}
+
+.navbar {
+  background-color: rgb(227, 81, 81);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.navbar-text {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.backdrop {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  background-color: rgb(0, 0, 0, 0.2);
+}
+
+.search {
+  margin-bottom: 30px;
+}
+
+.search-botton {
+  margin-left: 30px;
+}
+
+.spinner-border {
+  display: block;
+  position: fixed;
+  top: calc(50% - (58px / 2));
+  right: calc(50% - (58px / 2));
+  color: red;
+}
