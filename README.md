@@ -28,7 +28,7 @@
   ```
   npm install
   npm run serve
-  ```
+np  ```
 
 - Open the following link: http://localhost:4000/
 

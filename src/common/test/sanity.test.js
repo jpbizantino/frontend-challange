@@ -1,11 +1,11 @@
-import { describe, test, expect } from 'jest'
+import { describe, test, expect } from "@jest/globals";
 
-describe('Sanity Test', () => {
-  test('Should return true', () => {
-    expect(true).toBe(true)
-  })
+describe("Sanity Test", () => {
+  test("Should return true", () => {
+    expect(true).toBe(true);
+  });
 
-  test('Should return 3', () => {
-    expect(3).toBe(1 + 2)
-  })
-})
+  test("Should return 3", () => {
+    expect(3).toBe(1 + 2);
+  });
+});
