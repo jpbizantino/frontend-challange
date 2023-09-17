@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
 import { useDispatch } from 'react-redux'
 import * as Yup from 'yup'
-import { onSetSearchText } from '../../slice/appSlice'
+import { onSetSearchText } from '../../common/slice/appSlice'
 
 export const Search = () => {
   const dispatch = useDispatch()

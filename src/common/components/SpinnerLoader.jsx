@@ -2,7 +2,7 @@ import React from 'react'
 import Spinner from 'react-bootstrap/Spinner'
 import { useSelector } from 'react-redux'
 
-export const Loader = () => {
+export const SpinnerLoader = () => {
   const { isLoaderOpen } = useSelector((state) => state.app)
 
   if (!isLoaderOpen) return <div />

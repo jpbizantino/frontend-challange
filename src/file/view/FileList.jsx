@@ -1,10 +1,11 @@
 import React from 'react'
-import { BootTable } from './components'
+import { FileTable, Search } from '../components'
 
 export const FileList = () => {
   return (
     <>
-      <BootTable />
+      <Search />
+      <FileTable />
     </>
   )
 }

@@ -1,4 +1,12 @@
-# Full Stack JS - Code Challenge - V3
+<div align="center">
+  <h1>Full Stack JS - Code Challenge - V3</h1>
+  <p>Frontend project developed with a robust tech stack including Webpack, React, React Bootstrap, Formik, Yup, Redux, and Axios. Comprehensive Jest tests and adherence to Standard JS coding standards are also integral parts of the project.</p>  
+</div>
+
+## About
+
+- Author: Juan Pablo Bizantino
+- Date: September 2023
 
 ## Quick Start Guide
 
@@ -23,11 +31,6 @@
   ```
 
 - Open the following link: http://localhost:4000/
-
-## About
-
-- Author: Juan Pablo Bizantino
-- Date: September 2023
 
 ## Frameworks & Libraries
 

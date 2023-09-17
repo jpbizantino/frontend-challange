@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import Table from 'react-bootstrap/Table'
 import { useDispatch, useSelector } from 'react-redux'
-import { onLoaderOpen } from '../../slice/appSlice'
+import { onLoaderOpen } from '../../common/slice/appSlice'
 import { convertDataToRows } from '../helper'
 import { useFile } from '../hooks'
 
-export const BootTable = () => {
+export const FileTable = () => {
   const { searchText } = useSelector((state) => state.app)
   const { data, isFetching, isSuccess } = useFile(searchText)
   const [rows, setRows] = useState([])
