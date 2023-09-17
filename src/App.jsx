@@ -1,26 +1,20 @@
-// import { default as React } from 'react'
-import React from 'react'
-import Container from 'react-bootstrap/Container'
-import Navbar from 'react-bootstrap/Navbar'
-import { SpinnerLoader } from './common/components'
-import { FileList } from './file/view/FileList.jsx'
+import React from "react";
+import { AppLayout } from "./common/layout/AppLayout.jsx";
+import { FileList } from "./file/view/FileList.jsx";
+import Container from "react-bootstrap/Container";
 // Importing the Bootstrap CSS
-import 'bootstrap/dist/css/bootstrap.min.css'
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
   return (
     <>
-      <SpinnerLoader />
-
-      <Navbar expand='lg' className='navbar'>
-        <Container className='navbar-text'>React Test App</Container>
-      </Navbar>
-
-      <Container>
-        <FileList />
-      </Container>
+      <AppLayout>
+        <Container>
+          <FileList />
+        </Container>
+      </AppLayout>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
