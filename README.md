@@ -15,8 +15,8 @@
 - Run the following commands:
 
   ```
-  docker build . -t frontend-challange
-  docker run -d -p 4000:80/tcp frontend-challange:latest
+  docker build . -t frontend-
+  docker run -d -p 4000:80/tcp frontend-:latest
   ```
 
 - Open the following link: http://localhost:4000/
@@ -82,11 +82,11 @@ npm run std
 Open console on your project directory and run the following command
 
 ```
-docker build . -t frontend-challange
+docker build . -t frontend-
 ```
 
 Execute the image
 
 ```
-docker run -d -p 4000:80/tcp frontend-challange:latest
+docker run -d -p 4000:80/tcp frontend-:latest
 ```
