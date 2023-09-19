@@ -25,10 +25,12 @@
 
 - Run the following commands
 
-  ```
+  ````
   npm install
   npm run serve
-np  ```
+  np  ```
+
+  ````
 
 - Open the following link: http://localhost:4000/
 
@@ -90,3 +92,11 @@ Execute the image
 ```
 docker run -d -p 4000:80/tcp frontend-challenge:latest
 ```
+
+## Snapshots
+
+![Alt text](https://github.com/jpbizantino/frontend-challenge.git/images/image1.png "All data")
+
+![Alt text](https://github.com/jpbizantino/frontend-challenge.git/images/image2.png "Filter data")
+
+![Alt text](https://github.com/jpbizantino/frontend-challenge.git/images/image3.png "Filter validation")
