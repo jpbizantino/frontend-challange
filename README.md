@@ -95,8 +95,8 @@ docker run -d -p 4000:80/tcp frontend-challenge:latest
 
 ## Snapshots
 
-![Alt text](https://github.com/jpbizantino/frontend-challenge.git/images/image1.png "All data")
+![Alt text](https://github.com/jpbizantino/frontend-challenge/blob/main/images/image1.png "All data")
 
-![Alt text](https://github.com/jpbizantino/frontend-challenge.git/images/image2.png "Filter data")
+![Alt text](https://github.com/jpbizantino/frontend-challenge/blob/main/images/image2.png "Filter data")
 
-![Alt text](https://github.com/jpbizantino/frontend-challenge.git/images/image3.png "Filter validation")
+![Alt text](https://github.com/jpbizantino/frontend-challenge/blob/main/images/image3.png "Filter validation")
